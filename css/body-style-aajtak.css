@@ -1,0 +1,323 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1; background:#f4f4f4;}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+:focus{outline:none;}
+center{margin:0 auto; width:1003px;}
+.clr{ clear:both;}
+.clearfix:before, .clearfix:after {content: "";display: table;}.clearfix:after {clear: both;}.clearfix {*zoom: 1;}
+
+section h2 { margin:0 0 5px 0; padding:0px 0px 0 0;  background:#fff url(../images/relation-head-bg.jpg) repeat-x center left;}
+section h2 span { background:#fff; padding:0 15px 0 0; font-family:mangal; font-size:22px; line-height:40px; font-weight:bold;}
+
+
+
+
+
+#main_container { width:993px; margin:0 auto; background:#fff; padding:15px 5px 5px 5px; }
+#main_container:after { clear:both}
+#main_container:before { clear:both}
+#left_container { width:670px; float:left;}
+#right_container { width:300px; float:right;}
+#footer_container {width:993px; margin:0 auto;}
+
+#photo_gallery { width:325px; border:1px solid #c3c3c3; overflow:hidden; margin-bottom:20px;}
+#photo_gallery a { color:#fff; text-decoration:none; }
+#photo_gallery .big_img { position:relative}
+#photo_gallery .big_img img { width:100%; margin-bottom:-3px}
+#photo_gallery .big_caption { background:#000; opacity:0.8; font-family:mangal; font-size:18px; font-weight:bold ;  position:absolute;     padding: 3% 2%; bottom:0; width:96%; }
+#photo_gallery .belt { width:315px; border-top:1px solid #c3c3c3; padding:4px 5px ; overflow:hidden; position:relative; height:67px}
+#photo_gallery .belt ul { position:relative; padding:0; margin:0; z-index:1; }
+#photo_gallery .belt ul li { margin-right:8px; border:1px solid #c3c3c3; float:left; list-style:none; cursor:pointer; padding:0;}
+#photo_gallery .belt ul li img { float:left}
+#photo_gallery .left_arrow {
+     width: 14px;
+    height: 27px;
+    background-color: #000;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 1px solid gray;
+    border-bottom: 0;
+    color:#fff; font-weight:bold;
+	left: -5px;
+    position: absolute;
+    top: 20px;
+	padding-left: 7px;
+    padding-top: 10px;
+	cursor:pointer; font-size:17px;
+	display:none;
+	z-index:2; 
+}
+
+#photo_gallery .right_arrow {
+     width: 14px;
+    height: 27px;
+    background-color: #000;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid gray;
+    border-bottom: 0;
+    color:#fff; font-weight:bold;
+	right: -5px;
+    position: absolute;
+    top: 20px;
+	padding-left: 7px;
+    padding-top: 10px;
+	cursor:pointer; font-size:17px;
+	z-index:3; 
+}
+
+
+
+
+/***************Movie Masala Amlesh *****************/
+#movie-masala{width:670px; background:#f2f2f2; margin-bottom:20px;}
+.left-movie-masala{ background:#d9d9d9; width:322px; height:372px; float:left; }
+.m-gallery{ width:300px;height:350px;position:relative;padding:11px; overflow:hidden;}
+.m-gallery a h3{color:#FFF; text-decoration:none;}
+.m-gallery h3 {position: absolute;bottom: 11px;padding: 8px; font-family: mangal;background: url(../images/m-overlay.png) repeat;width: 284px;line-height: 25px;color: #FFF;}
+
+.right-movie-masala{ float:right; position:relative;}    
+.right-movie-masala ul{margin:0; padding:0; list-style:none; width:322px;}   
+.right-movie-masala ul li{margin:3px 0 13px 0;padding-bottom:10px; border-bottom:1px solid #dadada; overflow:hidden;}
+.right-movie-masala ul li:last-child{border-bottom:none;}    
+.right-movie-masala ul li img{ float:left;margin-right:7px;}
+.m-details{ float:left; width:210px;}
+.m-details a{text-decoration:none;}
+.m-details h4{font:normal 15px Mangal; color:#595959; line-height:20px; }
+.m-details h5{font:bold 15px Mangal;color:#545e56;} 
+.m-details h5 span.count{ padding-right:15px;}
+.right-movie-masala ul li .m-details img{margin:5px 20px 5px 0;} 
+
+.aurbhi {right: 0;padding-right: 5px;position: absolute;bottom: 0;}
+.aurbhi a{ text-decoration:none; color:#000;}
+.aurbhi a:hover{ text-decoration:none; color:#000;}
+ 
+.main-chunk{ width:670px; margin-top:20px;} 
+.khel-section{ float:left; width:322px; position:relative; min-height:310px;}
+.gadget-section{ float:right; width:322px;}
+.khel-gallery{ width:322px;height:170px;position:relative;overflow:hidden;}
+.khel-gallery a h3{color:#FFF; text-decoration:none;}
+.khel-gallery h3 {position: absolute;bottom: 0;padding: 5px 8px 5px 8px; font-family: mangal;background: url(m-overlay.png) repeat;width: 306px;line-height: 25px;color: #FFF;}
+.khel-list{}
+.khel-list ul{list-style:none; list-style-image:url(khel-list.png); padding-left:10px;} 
+.khel-list ul li{ border-bottom:1px solid #dadada;padding:4px 0 4px 0; } 
+.khel-list ul li a{ text-decoration:none;color:#000100;}
+.khel-list ul li a:hover{ text-decoration:none;color:#000100;}
+
+.gadget-section{ float:right; width:322px; position:relative;min-height:310px;}
+.gadget-section ul{margin:0; padding:0; list-style:none; width:322px;}   
+.gadget-section ul li{margin:3px 0 13px 0;padding-bottom:10px; border-bottom:1px solid #dadada; overflow:hidden;}
+.gadget-section ul li:last-child{border-bottom:none;}    
+.gadget-section ul li img{ float:left;margin-right:7px;}
+.g-details{ float:left; width:210px;}
+.g-details a{text-decoration:none;}
+.g-details h4{font:normal 15px Mangal; color:#595959; line-height:20px; }
+.g-details h5{font:bold 15px Mangal;color:#545e56;} 
+.g-details h5 span.count{ padding-right:15px;}
+.gadget-section ul li .m-details img{margin:5px 20px 5px 0;} 
+
+
+
+/*********************************************************TOP PART************************************************************************/
+.clearfix{ clear:both}
+#top_chunk_prt{ width:670px; float:left; margin-bottom:20px;}
+#top_chunk_prt_left{ width:321px; float:left;}
+#top_chunk_prt_left h1.main_heading_prt{font-size:20px; font-weight:bold; font-family:"Mangal"; line-height:26px; padding-bottom:10px; }
+#top_chunk_prt_left h1.main_heading_prt a{ color:#C60611; text-decoration:none}
+#top_chunk_prt_left ul.list-at{ list-style-type:disc; }
+#top_chunk_prt_left ul.list-at li{ padding:10px 0 10px 0; margin-left:20px;color:#a5a5a5;  border-top:1px solid #DADADA; line-height:22px;font-family:"Mangal"; font-size:16px;}
+#top_chunk_prt_left ul.list-at li:last-child{ border-bottom:1px solid #DADADA;}
+#top_chunk_prt_left ul.list-at li a{ text-decoration:none; color:#555B57;}
+#top_chunk_prt_left ul.list-at li a:hover{color:#000000;}
+
+#top_chunk_prt_right{ width:323px; float:right;}
+
+#top_chunk_prt_right ul{ list-style-type:disc; margin-left:20px;}
+#top_chunk_prt_right ul li{ font-family:"Mangal"; padding:7px 0; border-bottom:1px solid #DADADA;color:#a5a5a5; font-size:14px;}
+
+#top_chunk_prt_right ul li a{ color:#555B57; text-decoration:none;}
+#top_chunk_prt_right ul li a:hover{ color:#000000;   }
+
+.share_plugin_prt{ display:block; margin-bottom:10px;}
+.share_plugin_prt a{color:#555B57; text-decoration:none;}
+
+/*********************************************************TOP PART************************************************************************/
+
+/********************************************************* Programe Css (Sandeep)************************************************************************/
+#program-sec { margin-bottom:20px;}
+#program-sec .program-nav{ background:#EEEEEE; position:relative; width:670px; overflow:hidden;}
+#program-sec .program-nav ul{ width:2000px; margin-left:15px; position:relative;}
+#program-sec .program-nav ul li{list-style:none; display:inline-block;}
+#program-sec .program-nav ul li a{ font:600 17px/32px mangal;  color:#6B6B6B; text-decoration:none; display:block; padding:0 10px;}
+#program-sec .program-nav a#previous-arrow, #program-sec .program-nav a#next-arrow{ position:absolute; top:4px; text-decoration:none; font-size:25px; line-height:25px; font-weight:bold; color:#7D7D7D;background:#EEEEEE;} #program-sec .program-nav a#next-arrow{ right:0px; padding-right:5px;}#program-sec .program-nav a#previous-arrow{ padding-left:5px;}
+#program-sec .program-list{ padding-top:15px;}
+#program-sec .program-list ul li{ list-style:none; float:left; width:144px; margin-right:31px;} #program-sec .program-list ul li:nth-child(4){ margin-right:0px;}
+#program-sec .program-list ul li figure figcaption{ display:block; font:normal 14px/22px mangal; color:#404040; padding-top:8px;} 
+
+
+/*******************Prem CSS*******************/
+relation_crime_area { margin:0px; padding:0px; width:670px;}
+.relation_crime_area .relation_area { width:322px; float:left;}
+.relation_crime_area .relation_area figure { margin:0px; padding:0px; position:relative}
+.relation_crime_area .relation_area figure img { width:100%}
+.relation_crime_area .relation_area figcaption { margin:0px; padding:5px 0; font-family: mangal; position:absolute; bottom:0px; background:rgba(0,0,0,0.7); width:100%;  }
+.relation_head { position:relative; margin-bottom:5px;}
+.relation_crime_area h3 { margin:0px 0 0 0; padding:0px 10px 0 10px; font-size:18px; color:#fff;  font-family: mangal; line-height:24px;}
+.relation_crime_area h3 a { color:#fff; text-decoration:none}
+.clearfix { clear:both}
+.relation_crime_area .relation_info { margin:0px; padding:0px;} 
+.relation_crime_area .relation_info ul { margin:0 0 0 20px; padding:0px 0 0 0;  list-style-type: disc; }
+.relation_crime_area .relation_info ul li { margin:0px; padding:0px 0 0 10px; color:#a5a5a5;  font-family: mangal; font-size: 14px;
+    padding: 7px 0; border-bottom:1px solid #dadada; }
+.relation_crime_area .relation_info ul li a { padding:0 0 0 3px;  text-decoration:none; color:#000;; display:block}
+.relation_crime_area .read_btn { margin:0px; padding:4px 0 0 0; text-align:right;  font-size:15px;}
+.relation_crime_area .read_btn a { color:#000; text-decoration:none; }
+
+
+/*** END RELATION ***/
+
+.relation_crime_area { margin-bottom:20px;}
+.relation_crime_area .crime_area { margin:0px; padding:0px; float:right; width:323px;}
+.relation_crime_area .crime_area ul { margin:0px; padding:0px; list-style:none}
+.relation_crime_area .crime_area ul li { margin:0px 0 15px 0; padding:0px 0 15px 0; border-bottom:1px solid #d9dbda}
+.relation_crime_area .crime_area ul li .crime_pic { margin:0px 10px 0 0; padding:0px; width:98px; float:left;} 
+.relation_crime_area .crime_area ul li figcaption.crime_info { margin:0px; padding:0px; font-family: mangal; width:214px; float:right }
+.relation_crime_area .crime_area ul li h3 { margin:0px; padding:0px 0 3px 0; font-size:14px; line-height:20px; font-weight:normal}
+.relation_crime_area .crime_area ul li h3 a { text-decoration:none; color:#000;}
+.relation_crime_area .crime_area ul li:last-child { margin-bottom:0px; border-bottom:none; padding-bottom:0px; }
+.relation_crime_area .crime_area ul li .share_area { margin:0px; padding:0px; display:block; color:#aaaaaa}
+.relation_crime_area .crime_area ul li .share_area i { color:#aaaaaa; font-size:20px; margin-right:5px; cursor:pointer}
+.relation_crime_area .crime_area ul li .share_area .share_info { font-size:16px; font-weight:bold; line-height:20px; color:#555c59;}
+.relation_crime_area .crime_area ul li .share_area .share_info a {color:#555c59; text-decoration:none}
+.share_social { margin:0px; padding:0px;}
+.share_btn { float:left}
+.social_btn_all { display:none; float:left}
+/*** END CRIME ***/
+
+/**** Pakwangali Css ****/
+#pakwangali-vote .vote-ad{ width:325px; float:left;} #pakwangali-vote .pakwangali{ width:325px; float:right;}
+#pakwangali-vote .vote-ad .ad{ text-align:center; background:#EFEFEF; padding:12px 0;}
+#pakwangali-vote .vote-ad .aapka-vote p{ font-size:15px; line-height:22px; font-family:mangal; padding-bottom:10px;}
+#pakwangali-vote .vote-ad .aapka-vote .aapkavote-section input[type=radio]{ margin:0; padding:0; width:15px; text-align:center; margin-right:5px; float:left; margin-top:2px;}
+#pakwangali-vote .vote-ad .aapka-vote .aapkavote-section > div{font-size:14px; color:#fff; padding:3px 5px; width:45px; overflow:hidden; border-radius:5px; -webkit-border-radius:5px; margin-bottom:5px;} #pakwangali-vote .vote-ad .aapka-vote .aapkavote-section > div > span{ width:auto; float:left; font-size:15px; font-weight:600; line-height:18px;}
+#pakwangali-vote .vote-ad .aapka-vote .vote-yes{background:#349C21; }#pakwangali-vote .vote-ad .aapka-vote .vote-no{background:#D71A21;}
+#pakwangali-vote .vote-ad .aapka-vote .aapkavote-section > div.vote-submit input[type=button]{ background:none; border:0px; color:#fff; font-size:15px; font-weight:600; line-height:18px;}
+#pakwangali-vote .vote-ad .aapka-vote .aapkavote-section > div.vote-submit{ background: #fa8e21;background: -moz-linear-gradient(top, #fa8e21 0%, #b05a05 100%);
+background: -webkit-linear-gradient(top, #fa8e21 0%,#b05a05 100%);background: linear-gradient(to bottom, #fa8e21 0%,#b05a05 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa8e21', endColorstr='#b05a05',GradientType=0 ); width:55px;}
+
+
+.pakwangali .pakwangali-list ul li {border-bottom: 1px solid #d9dbda; margin: 0 0 15px;padding: 0 0 15px;}
+.pakwangali .pakwangali-list ul li .pakwan_pic {float: left;margin: 0 10px 0 0;padding: 0;width: 98px;}
+.pakwangali .pakwangali-list ul li .pakwan_info {float: right;font-family: mangal;margin: 0;padding: 0;width: 214px;}
+.pakwangali .pakwangali-list ul li h3 {font-size: 14px;font-weight: normal;line-height: 20px;margin: 0;padding: 0 0 3px;}
+.pakwangali .pakwangali-list ul li h3 a {color: #000000;text-decoration: none;}
+
+/**** Pakwangali Css End ****/
+
+
+
+/****Right CSS Start***/
+.topRightAd{ float: left; width:100%; border:1px solid #e7e5e6; margin-bottom:30px; background:#f4f4f4}
+
+.liveNewSec{ float: left; width:100%;border:1px solid #e7e5e6; background:#f4f4f4; border-radius:5px; box-sizing: border-box;}
+.liveNewTxt{ background:#d0d0d0; border-radius:5px; height:35px;margin-bottom:3px}
+.liveNewTxt span.livetxtLeft{ background:#000; font:bold 20px/35px Mangal; float: left; color:#fff; display: inline-block; height:35px; width:64px; border-radius:5px 0 0 0; text-align: center}
+.liveNewTxt span.livetxtLeft a{ color:#fff}
+.liveNewTxt h2{ font:bold 20px/35px Mangal; float: left; text-decoration: none; color:#000; text-align: center; width:230px}
+.liveNewTxt h2 a{ color:#000; display: block}
+
+.liveListNews{ padding:12px 5px; box-sizing: border-box; height:235px; overflow: hidden}
+.liveListNews li{ list-style: none; float: left; border:1px solid #e1e1e1; background:#fff; padding:5px; box-sizing: border-box; width:100%; margin-bottom:10px}
+.liveListNews li:last-child{ margin-bottom:0px;}
+.liveListNews li h3{ font:15px/20px Mangal; color:#000}
+.liveListNews li h3 span{ color:#c20a12; font:bold 13px/18px Arial, Helvetica, sans-serif; padding-right:10px}
+.newsSocialIcons{ float: left; width:100%; display: block; box-sizing: border-box; padding-left:8px; margin-top:6px}
+.newsSocialIcons a img{ margin-right:25px}
+#container2 .mCSB_container { margin-right: 15px !important;}
+
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail{ background: e3e1e1}
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail{ background: e3e1e1; width:7px}
+#container2 .mCSB_scrollTools .mCSB_draggerRail{ background:#dcdcdc;}
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background:url(../images/livescroll.png) no-repeat}
+#container2 .mCSB_scrollTools .mCSB_buttonUp{ display: block; position: absolute; height: 20px; width: 100%; overflow: hidden;  margin: 0 auto; cursor: pointer;  background:url(http://media2.intoday.in/indiatoday/world-t20-2016/images/scrollBtn.png) no-repeat 3px 7px}
+#container2 .mCSB_scrollTools{ width:9px;}
+
+.webSliderTxt  h2 { margin:0px 0 10px 0; padding:0px 0px 0 0; font-size:22px; line-height:20px; font-weight:bold; background:url(../images/relation-head-bg.jpg) repeat-x center left}
+.webSliderTxt h2 span { background:#fff; padding:0 15px 0 0}
+
+.photoSlider{ float: left; width:100%; margin-top:20px; position: relative}
+.photoSliderSection{ position: relative;overflow: hidden;}
+.photoSliderSection ul{ position: relative;}
+.photoSliderSection li{ list-style: none;position: relative; float: left}
+.photoSlider .control_prev{ text-indent:-999px; height:56px; width:30px; background: url(../images/left-arrow.png) no-repeat; position: absolute; top:166px; left:0px;}
+.photoSlider .control_next { text-indent:-999px; height:56px; width:30px; background: url(../images/right-arrow.png) no-repeat; position: absolute; top:166px; right:0px;}
+.totalCountSlide{ background:#fff; padding:2px; font:bold 16px Arial, Helvetica, sans-serif; position: absolute; top:0px; right:0px; color:#4b4a4a}
+.photoSliderSection li span{ background:rgba(0,0,0,0.6); bottom: 0; color: #fff; display: block; float: left; font: 14px/20px Mangal;
+      position: absolute;  width: 100%; box-sizing: border-box; padding:5px}
+
+
+.soSorrySec{ margin:20px 0 0; float: left; width:100%}
+
+
+.webSliderSec{ float: left; width:100%; margin-top:20px; position: relative}
+.onlyWebSlideBox{ float: left; width:100%; background:#f4f4f4; box-sizing: border-box; padding:3px;}
+.WebSliderContent{ position: relative;overflow: hidden; box-sizing: border-box;}
+.WebSliderContent ul{ position: relative;}
+.WebSliderContent li{list-style: none;position: relative; float: left; width:294px; box-sizing: border-box; margin-bottom:20px;}
+.WebSliderContent li a { padding:0; margin:0; text-decoration:none }
+.WebSliderContent li span{ font:14px/22px Mangal; color:#000; display: block}
+.WebSliderContent .control_prev1{ text-indent:-999px; height:56px; width:30px; background: url(../images/left-arrow.png) no-repeat; position: absolute; top:56px; left:0px;}
+.WebSliderContent .control_next1 { text-indent:-999px; height:56px; width:30px; background: url(../images/right-arrow.png) no-repeat; position: absolute; top:56px; right:0px;}
+.totalCountSlide1{ background:#fff; padding:2px; font:bold 16px Arial, Helvetica, sans-serif; position: absolute; top:0px; right:0px; color:#4b4a4a}
+
+
+.onlyWebMenu{ float: left; width:100%; background:#f4f4f4; border-top:1px solid #cccccc; margin-top:2px; box-sizing: border-box; padding:7px 10px}
+.onlyWebMenu li{ float: left; list-style: none; line-height:20px}
+.onlyWebMenu li a{ font:bold 14px/20px Mangal; color:#000;padding:4px 7px; text-decoration:none}
+.onlyWebMenu li a:hover{ text-decoration: underline}
+
+.latestFormSec{ float: left; width:100%; margin:25px 0}
+.rajWarNews{ float: left; width:100%; position: relative}
+
+.rajWarNews .program-nav-edu{ background:#eee; position:relative; width:300px; overflow:hidden;}
+.rajWarNews .program-nav-edu ul{ width:2000px; margin-left:15px; position:relative;}
+.rajWarNews .program-nav-edu ul li{list-style:none; display:inline-block;}
+.rajWarNews .program-nav-edu ul li a{ font:600 15px/32px mangal;  color:#6B6B6B; text-decoration:none; display:block; padding:0 9px;}
+.rajWarNews .program-nav-edu a#priv-arrow, .rajWarNews .program-nav-edu a#nxt-arrow{ position:absolute; top:4px; text-decoration:none; font-size:20px; line-height:25px; font-weight:bold; color:#7d7d7d;background:#eee;}
+.rajWarNews .program-nav-edu a#nxt-arrow{ right:0px; padding-right:5px;}
+.rajWarNews .program-nav-edu a#priv-arrow{ padding-left:5px;}
+
+.rajwarNewsList{ float: left; width:100%; margin-top:15px;}
+.rajwarNewsList ul li { background:url(../images/icon-relation.jpg) no-repeat 0 center; color: #000; font-family: mangal; font-size: 15px; float: left; width:100%; box-sizing: border-box; list-style: none;border-bottom: 1px solid #d9dbda; padding:6px 14px}
+.rajwarNewsList ul li:first-child{ padding:0px 0px 6px}
+.rajwarNewsList ul li a{ color:#000; text-decoration:none}
+.rajwarNewsList ul li .crime_pic {float: left;margin: 0 10px 0 0;  padding: 0; width: 98px;}
+.rajwarNewsList ul li figcaption.crime_info {  margin: 0; padding: 0;}
+.rajwarNewsList ul li figcaption.crime_info  h3 {font:normal 14px/20px mangal; margin: 0;  padding: 0 0 3px;}
+.rajwarNewsList ul li figcaption.crime_info  h3 a{ color:#555c59; text-decoration:none}
+
+.rajwarNewsList .read_btn { float: left; width:100%;margin:5px 0; padding:4px 0 0 0; text-align:right;  font-size:15px;}
+.rajwarNewsList .read_btn a { color:#000; text-decoration:none; }
+.rajwarNewsList .read_btn a:hover{ text-decoration: underline}
+
+.educationAndJobSec{ float: left; width:100%; margin-top:30px;}
+.educationAndJobSec .rajwarNewsList li{ background: none; padding:0}
+.educationAndJobSec .webSliderTxt h2{ margin:0px;}
+.educationAndJobSec ul li{ margin-bottom:15px;}
+.educationAndJobSec ul li{ border-bottom:0px;}
+.educationAndJobSec ul li p{ color:#000;font:normal 15px/24px mangal }
+.educationAndJobSec ul li p a{ color:#000}
+.educationAndJobSec ul li p a:hover{ text-decoration: underline}
+
+.edu-foot { background: #d8d8d8;height: 30px; width: 100%; float: left; box-sizing: border-box}
+.edu-foot ul li { float: left; font-family: mangal; line-height: 30px; list-style: none; margin-left: 10px;}
+.edu-foot li a {  color: black; font-weight: bold; line-height: 30px; text-decoration: none;}
+
+
+
+/*****Right CSS End**/
